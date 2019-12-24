@@ -17,36 +17,36 @@ class Home extends React.Component {
           icon: 'https://banner2.cleanpng.com/20180723/pkj/kisspng-computer-icons-blog-download-desktop-wallpaper-icon-public-relations-5b55dc047663e3.6999231015323535404849.jpg'
         },
         {
-          screen: 'Register',
+          screen: '',
           title: 'Upload Bukti Bayar',
           icon: 'https://i.ibb.co/jZ4t5WK/receipt-icon-in-black-style-isolated-on-white-vector-12730068-1.jpg'
         },{
-          screen: '3',
+          screen: '',
           title: 'Koran Perjoeangan',
           icon: 'https://i.ibb.co/7Scy559/download-2-1.png'
         },
         {
-          screen: '4',
+          screen: '',
           title: 'Bantuan Hukum',
           icon: 'https://www.davidcarrierlaw.com/wp-content/uploads/2015/08/David-Carrier-mock-ups_v1_elder-law-icon.png'
         },
         {
-          id: '5',
+          id: '',
           title: 'Instruksi DPP',
           icon: 'https://www.climbhangar18.com/wp-content/uploads/2016/07/private-instruction-icon.png'
         },
         {
-          screen: '6',
+          screen: '',
           title: 'Instruksi PP',
           icon: 'https://www.climbhangar18.com/wp-content/uploads/2016/07/private-instruction-icon.png'
         },
         {
-          screen: '7',
+          screen: '',
           title: 'Instruksi PUK',
           icon: 'https://www.climbhangar18.com/wp-content/uploads/2016/07/private-instruction-icon.png'
         },
         {
-          screen: '8',
+          screen: '',
           title: 'eVoting',
           icon: 'https://i.ibb.co/xJ8ty8X/Hi-Res-20-e1469562862452.jpg'
         },

@@ -55,7 +55,7 @@ class Onboarding extends React.Component {
                     <Label>
                       <Text>Username</Text>  
                     </Label>
-                    <Input value={this.state.inputUsername}></Input>            
+                    <Input></Input>            
                   </Item>
                   {
                     this.state.inputUsername == '' ?
@@ -90,7 +90,7 @@ class Onboarding extends React.Component {
                   </View>
                   }
                 </Form>
-                <Button block style={{backgroundColor:'white', borderRadius:5, marginTop:40, borderWidth:1, borderColor:'red'}}>
+                <Button onPress={() => this.props.navigation.navigate("Home")} block style={{backgroundColor:'white', borderRadius:5, marginTop:40, borderWidth:1, borderColor:'red'}}>
                     <Text style={{color:'black'}}>Login</Text>
                 </Button>
                 <View style={{marginTop:10}}>

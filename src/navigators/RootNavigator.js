@@ -32,14 +32,14 @@ const onShare = async () => {
 };
 
 const RootStack = createStackNavigator({
-  Home: {
-    screen: Home,
+  Login: {
+    screen: Onboarding,
     navigationOptions : {
       header : null
     }
   }, 
-  Login: {
-    screen: Onboarding,
+  Home: {
+    screen: Home,
     navigationOptions : {
       header : null
     }
